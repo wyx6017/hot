@@ -1,0 +1,107 @@
+/* 重置浏览器默认样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Microsoft YaHei", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* 顶部导航栏 */
+header {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* 页面主布局 */
+main {
+  display: flex;
+  max-width: 1200px;
+  margin: 30px auto;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+/* 左侧边栏 */
+aside {
+  width: 240px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside ul li {
+  margin-bottom: 15px;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
+
+aside ul li a:hover {
+  text-decoration: underline;
+}
+
+/* 主内容区域 */
+section {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+section h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  border-left: 6px solid #003366;
+  padding-left: 10px;
+}
+
+section p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* 页脚 */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
